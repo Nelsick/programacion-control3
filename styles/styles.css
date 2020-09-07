@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: century gothic;
+}
+
+nav{
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: royalblue;
+    box-shadow: 2px 2px 4px gray;
+}
+
+h2{
+    margin: 4px;
+}
+
+hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.container{
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.medium{
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    /*background-color: royalblue;*/
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    box-shadow: 2px 2px 4px gray;
+    height: 150px;
+}
+
+.tinny{
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    /*background-color: royalblue;*/
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    box-shadow: 2px 2px 4px gray;
+    height: 70px;
+}
+
+form{
+    padding: 1rem;
+}
+
+label{
+    display: block;
+    padding: 0.5rem;
+}
+
+input{
+    display: block;
+    width: 40%;
+    margin-left: 30%;
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 6px;
+}
+
+input:focus{
+    outline-color: royalblue;
+}
+
+button{
+    display: block;
+    width: 40%;
+    margin-left: 30%;
+    padding: 3px;
+    cursor: pointer;
+    border: 2px solid royalblue;
+    background-color: white;
+}
+
+button:hover{
+    background-color: royalblue;
+    color: white;
+    outline: none;
+}
+
+.respuesta{
+    vertical-align: middle;
+    padding: 1rem;
+    color: black;
+    font-weight: bold;
+    margin-top: 2.5rem;
+}
+
+.rsp{
+    margin-top: 15px;
+}
+
+.resp{
+    margin-top: 40px;
+}
